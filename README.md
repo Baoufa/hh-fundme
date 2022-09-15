@@ -19,9 +19,6 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -62,17 +59,16 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contact">Contact</a></li>
     <li><a href="#license">License</a></li>
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is custom HardHat boilerplate to kickstart deployment and interactions with any contracts on professional. 
-It includes all 
+This is custom HardHat boilerplate to kickstart deployment and interactions with any contracts on professional level. 
+It notably includes: 
 * required packages
 * customs scripts
 * preset hardhatconfig.js
@@ -170,6 +166,10 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- CONTACT -->
+## Contact
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 <!-- LICENSE -->
