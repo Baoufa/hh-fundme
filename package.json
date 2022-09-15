@@ -1,17 +1,21 @@
 {
-  "name": "custom-hh-boilerplate",
+  "name": "custom-hardhat-boilerplate",
   "version": "1.0.0",
-  "author": "BA",
+  "author": "Benjamin Anoufa",
   "license": "MIT",
   "scripts": {
     "encrypt": "node scripts/encryptKey.js",
-    "start-local": "yarn hardhat node",
-    "deploy-hh": "yarn hardhat deploy --network hardhat",
-    "deploy-local": "yarn hardhat deploy --network localhost",
-    "deploy-goerli": "yarn hardhat deploy --network goerli",
-    "test-hh": "yarn hardhat test --network hardhat",
-    "test-local": "yarn hardhat test --network localhost",
-    "test-goerli": "yarn hardhat test --network goerli"
+    "test:hh": "yarn hardhat test --network hardhat",
+    "test:local": "yarn hardhat test --network localhost",
+    "test:goerli": "yarn hardhat test --network goerli",
+    "start:local": "yarn hardhat node",
+    "deploy:hh": "yarn hardhat deploy --network hardhat",
+    "deploy:local": "yarn hardhat deploy --network localhost",
+    "deploy:goerli": "yarn hardhat deploy --network goerli",
+    "lint" : "yarn solhint 'contracts/*.sol'",
+    "lint:fix": "yarn solhint 'contracts/.*sol --fix",
+    "format": "yarn prettier --write",
+    "coverage": "yarn hardhat coverage"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.7.0",

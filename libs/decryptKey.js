@@ -12,7 +12,6 @@ async function decryptKey() {
             },
         },
     };
-
     
     // Check if key is encrypted
     const keysPath = path.join(
